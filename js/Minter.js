@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import {
   connectWallet,
   getCurrentWalletConnected //import here
-} from "./utils/interact.js";
+} from "https://sirriusv1.github.io/Site/js/utils/interact.js";
 
 const Minter = (props) => {
 
