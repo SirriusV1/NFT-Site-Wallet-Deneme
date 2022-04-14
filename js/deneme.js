@@ -1,4 +1,5 @@
-<h1 class="total"><span id="ttt"></span>/10000</h1>
+    <script src="https://cdn.jsdelivr.net/npm/web3.js-browser/build/web3.js"></script>
+            <h1 class="total"><span id="ttt"></span>/10000</h1>
             <p>wallet address -<span id="wallet-address"></span></p>
             <button id="mint">Mint</button>
 
