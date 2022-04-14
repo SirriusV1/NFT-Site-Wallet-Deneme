@@ -1,4 +1,4 @@
-<body>
+
     <h1 class="total"><span id="ttt"></span>/10000</h1>
     <p>wallet address -<span id="wallet-address"></span></p>
     <p>Cost -<span id="Costt"></span></p>
@@ -814,4 +814,3 @@
        </script>
 
 
-</body>
