@@ -1,4 +1,4 @@
-       <script type="text/javascript">
+
 
        var account = null;
        var contract = null;
@@ -803,4 +803,3 @@
 
 
 
-       </script>
