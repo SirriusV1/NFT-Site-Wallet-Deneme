@@ -1,14 +1,12 @@
+<h1 class="total"><span id="ttt"></span>/10000</h1>
+            <p>wallet address -<span id="wallet-address"></span></p>
+            <button id="mint">Mint</button>
 
-    <h1 class="total"><span id="ttt"></span>/10000</h1>
-    <p>wallet address -<span id="wallet-address"></span></p>
-    <p>Cost -<span id="Costt"></span></p>
-    <button id="mint">Mint</button>
+       <script type="text/javascript">
 
-    <script type="text/javascript">
-
-        var account = null;
-        var contract = null;
-        const ABI =  [
+       var account = null;
+       var contract = null;
+       const ABI =  [
     {
         "inputs": [
             {
@@ -799,11 +797,9 @@
                    contract.methods.mint(account).send({from:account,value:"1000000000000000000"});
                }
 
-               var totalsupply = await contract.methods.totalSupply().call();
-               document.getElementById('ttt').textContent = totalsupply;
+               var totalSupply = await contract.methods.totalSupply().call();
+               document.getElementById('ttt').textContent = totalSupply;
 
-               var _cost = await contract.methods._cost().call();
-               document.getElementById('Costt').textContent = _cost;
 
 
             }
@@ -812,5 +808,3 @@
 
 
        </script>
-
-
