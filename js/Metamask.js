@@ -1,6 +1,6 @@
 window.addEventListener('DOMContentLoaded', () => {
   const onboarding = new MetaMaskOnboarding();
-  const onboardButton = document.getElementById('connectWallet');
+  const onboardButton = document.getElementById('connectWalle');
   let accounts;
 
   const updateButton = () => {
